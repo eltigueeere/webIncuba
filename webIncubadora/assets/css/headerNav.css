@@ -1,0 +1,48 @@
+.jAlvarez{
+    margin-top: 10px;
+}
+.maelo{
+    text-align: center;
+    margin-top: 10px;
+}
+.letrAzul{
+    color: #1B3D70;
+}
+.letraOro{
+    color:  #bb8800;
+}
+.menu{
+    background-color: #bb8800;
+    color: #1B3D70;
+    font-size: 30px;
+}
+.fondo{
+	background-color: #1B3D70;	
+}
+.fondoWhite{
+    background-color: white;
+}
+.marjen{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.wy{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.linea{
+    margin: 20px auto 0 auto;
+    border-bottom: 4px solid #bb8800;
+}
+/*
+.sticky-top-2{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;
+    z-index: 1030;
+}
+*/
+.loginBoton{
+    align-items: center;
+    justify-content: center;
+}
