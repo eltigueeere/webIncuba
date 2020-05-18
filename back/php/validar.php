@@ -27,7 +27,7 @@ while($filas = mysqli_fetch_array($resultado)){
 }*/
 $resultado=mysqli_query($conexion, "SELECT * FROM usuarios WHERE usuario = '$usuario' and pass = '$pass' ");
 //if ($row = mysqli_fetch_array($resultado)){
-if($usuario == "lalo" && $pass = "lalos" ){
+if($usuario == "user1" && $pass = "lalos" ){
     header("Location: ../views/control.php");
 } else{
     echo"no";
