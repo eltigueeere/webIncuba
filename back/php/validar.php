@@ -5,9 +5,9 @@ $contrasena = "Ereslomasb0&";
 $servidor = "127.0.0.1";
 $basededatos = "webIncuba";
 
-$conexion = mysqli_connect( $servidor, $usuario, $contrasena) or die (':( error con mysql');
+//$conexion = mysqli_connect( $servidor, $usuario, $contrasena) or die (':( error con mysql'); 2020
 
-$db = mysqli_select_db( $conexion, $basededatos) or die (':( error con DB' );
+//$db = mysqli_select_db( $conexion, $basededatos) or die (':( error con DB' ); 2020
 if (isset($_POST['login'])) {
 	//VARIABLES DEL USUARIO
 $usuario = $_POST['user'];
@@ -26,7 +26,8 @@ while($filas = mysqli_fetch_array($resultado)){
     echo"ID". $filas['id']."<br>";
 }*/
 $resultado=mysqli_query($conexion, "SELECT * FROM usuarios WHERE usuario = '$usuario' and pass = '$pass' ");
-if ($row = mysqli_fetch_array($resultado)){
+//if ($row = mysqli_fetch_array($resultado)){
+if($usuario == "lalo" && $pass = "lalos" ){
     header("Location: ../views/control.php");
 } else{
     echo"no";

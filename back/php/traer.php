@@ -1,8 +1,8 @@
 <?php
 
 //include('conexion.php');
-$usuario = "lalo";
-$contrasena = "Ereslomasb0&";  
+$usuario = "root";
+$contrasena = "";  
 $servor = "127.0.0.1";
 $basededatos = "webIncuba";
 
